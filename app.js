@@ -42,6 +42,9 @@ app.use("/api", categoryRoutes);
 app.use("/api", productRoutes);
 app.use("/api", orderRoutes);
 app.use("/api", paymentBRoutes);
+app.get("/", (req, res) => {
+  res.send("backend on");
+});
 
 //PORT
 

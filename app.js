@@ -15,7 +15,7 @@ const productRoutes = require("./routes/product");
 const orderRoutes = require("./routes/order");
 const paymentBRoutes = require("./routes/paymentBRoutes");
 // mongoose.connect("mongodb://localhost:27017/test", { useNewUrlParser: true });
-
+// mongodb+srv://pratikwaware:pratikwaware@cluster0.mnsck.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 // DB connection
 mongoose
   .connect(process.env.DATABASE, {
